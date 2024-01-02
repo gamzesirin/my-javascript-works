@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    background:#fff;
+}
+.gozler{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.goz{
+    width: 240px;
+    height: 120px;
+    background-color: rgb(53, 29, 29);
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border-top:120px solid black;
+    transition: all .5s ease;
+}
+.goz:hover{
+    border-top: 12px solid black;
+}
+.gbebek{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .5s ease;
+    border:10px solid #fff;
+}
+/* .goz:hover .gbebek{
+    width: 60px;
+    height: 60px;
+} 
+
+.goz:first-child .gbebek{
+    left: 50%;
+}
+.goz:last-child .gbebek{
+    left: 50%;
+} 
+
+@media only screen and (max-width: 768px){
+    .goz{
+        width: 180px;
+        height: 90px;
+    }
+    .gbebek{
+        width: 30px;
+        height: 30px;
+    }
+    .goz:first-child .gbebek{
+        left: 20%;
+    }
+    .goz:last-child .gbebek{
+        left: 70%;
+    } 
+} */

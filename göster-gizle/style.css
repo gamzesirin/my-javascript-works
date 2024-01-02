@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins" , sans-serif;
+}
+body{
+    background-color: hotpink;
+}
+h2{
+    color:#fff;
+    text-align: center;
+    font-size: 2em;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.d1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 100px;
+}
+.d2{
+    width: 200px;
+    height: 200px;
+    background-color:cornflowerblue;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.buttons{
+    width: auto;
+    height:auto ;
+    gap: 15;
+    padding: 30px 30px 30px 30px;
+}
+.b1{
+    background-color: rgb(253, 251, 253);
+    color: #000;
+    padding: 10px;
+    font-size: medium;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.b2{
+    background-color: rgb(253, 251, 253);
+    color: #000;
+    padding: 10px;
+    font-size: medium;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.b3{
+    background-color: rgb(253, 251, 253);
+    color: #000;
+    padding: 10px;
+    font-size: medium;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.b1:hover{
+    cursor: pointer;
+    transform: scale(1.05) ; 
+}
+.b2:hover{
+    cursor: pointer;
+    transform: scale(1.05) ; 
+}
+.b3:hover{
+    cursor: pointer;
+    transform: scale(1.05) ; 
+}
+.goster{
+    display: block;
+}
+.gizle{
+    display: none;
+}
+.gecis{
+    display: none;
+}
